@@ -114,6 +114,15 @@ define Profile/TLWDR4300/Description
 endef
 $(eval $(call Profile,TLWDR4300))
 
+define Profile/MW4530R
+        NAME:=MERCURY MW4530R
+        PACKAGES:=kmod-usb-core kmod-usb2 kmod-ledtrig-usbdev
+endef
+ 
+define Profile/MW4530R/Description
+        Package set optimized for the MERCURY MW4530R.
+endef
+$(eval $(call Profile,MW4530R))
 
 define Profile/TLWR740
 	NAME:=TP-LINK TL-WR740N/ND

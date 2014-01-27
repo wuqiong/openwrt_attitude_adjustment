@@ -143,6 +143,9 @@ get_status_led() {
 	tl-wr703n)
 		status_led="tp-link:blue:system"
 		;;
+	mw4530r)
+		status_led="mercury:blue:system"
+		;;
 	tl-wr2543n)
 		status_led="tp-link:green:wps"
 		;;
